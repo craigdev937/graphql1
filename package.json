@@ -1,0 +1,36 @@
+{
+  "name": "graphql1",
+  "version": "1.0.0",
+  "description": "Initial setup of the project.  Created with Apollo Server, Express, Mongoose, React and Apollo Client.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/graphql1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/graphql1/issues"
+  },
+  "homepage": "https://github.com/indigomx9/graphql1#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.4",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
+
+
