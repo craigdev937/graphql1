@@ -2,10 +2,39 @@ import React from "react";
 
 export const Add = () => {
     return (
-        <React.Fragment>
-            <h1>Add</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero alias hic odio dolore, quisquam obcaecati molestiae natus veritatis consequatur deleniti sint tempore neque a possimus ipsum voluptates sed consectetur.</p>
-        </React.Fragment>
+        <main className="">
+            <form>
+                <aside className="form-group">
+                    <label htmlFor="title">Title</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter Title"
+                    />
+                </aside>
+                <aside className="form-group">
+                    <label htmlFor="title">Detail</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter Detail"
+                    />
+                </aside>
+                <aside className="form-group">
+                    <label htmlFor="date">Date</label>
+                    <input
+                        type="date"
+                        className="form-control"
+                        placeholder="Enter Detail"
+                    />
+                </aside>
+                <button
+                    type="submit"
+                    className="btn btn-primary"
+                >Submit
+                </button>
+            </form>
+        </main>
     );
 };
 
