@@ -23,7 +23,7 @@ export const typeDefs = gql`
     type Mutation {
         create (input: TodoInput): Todo
         update(_id: ID!, input: TodoInput): Todo
-        delete(_id: ID!): Todo
+        deleteTodo(_id: ID!): Todo
     }
 `;
 

@@ -14,7 +14,7 @@ export const resolvers = {
                 {_id}, input, {new: true}
             );
         },
-        delete: async (obj, {_id}) => {
+        deleteTodo: async (obj, {_id}) => {
             return await Todo.findByIdAndDelete({_id});
         }
     }
